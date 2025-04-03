@@ -15,7 +15,6 @@ declare global {
 }
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import session from "express-session";
 import morgan from "morgan";
 
 import {authenticate} from "./shared/middleware/";

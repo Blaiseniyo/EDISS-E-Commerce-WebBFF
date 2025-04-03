@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 dotenv.config({ path: `.env` });
 
 export const {
-  SESSION_SECRET,
   FRONTEND_URL,
   NODE_ENV,
   APP_PORT,
